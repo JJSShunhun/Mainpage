@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+// App.js
+
+import React from 'react';
+import Header from './Header';
+import AdditionalLinks from './AdditionalLinks';
+import WeeklyPerformance from './WeeklyPerformance'; // 기존 컴포넌트 추가
+import PerformanceCommunity from './PerformanceCommunity'; // 새로운 컴포넌트 추가
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <AdditionalLinks />
+      <WeeklyPerformance />
+      <PerformanceCommunity /> {/* 새로운 컴포넌트 추가 */}
     </div>
   );
 }
 
 export default App;
+

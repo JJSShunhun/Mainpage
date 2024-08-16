@@ -1,0 +1,32 @@
+.additional-links {
+  background-color: white; /* 바탕색을 흰색으로 설정 */
+  display: flex;
+  flex-direction: column; /* 수직 방향으로 배치 */
+  justify-content: center; /* 세로 방향 가운데 정렬 */
+  align-items: center; /* 가로 방향 가운데 정렬 */
+  height: 70px; /* 세로 크기를 70px로 설정 */
+  border-bottom: 1px solid #ccc; /* 하단 테두리만 추가 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 약간의 음영 추가 */
+}
+
+.additional-link {
+  text-decoration: none;
+  color: black; /* 텍스트 색상을 검정색으로 설정 */
+  margin: 20px 10px; /* 각 텍스트들의 여백 조정 */
+  padding: 10px 20px; /* 텍스트 주변 여백 추가 */
+  font-size: 18px; /* 텍스트 크기 증가 */
+  transition: background-color 0.3s; /* 배경색 변화에 트랜지션 효과 추가 */
+
+  /* 마우스 호버 시 배경색 변경 */
+}
+
+.additional-link:hover {
+  background-color: #f0f0f0; /* 마우스 호버 시 배경색을 연한 회색으로 변경 */
+}
+
+.additional-links {
+  display: flex;
+  flex-direction: row; /* 가로 방향으로 배치 */
+  justify-content: center; /* 가로 방향 가운데 정렬 */
+}
+

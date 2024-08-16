@@ -1,0 +1,61 @@
+/* WeeklyPerformance.css */
+
+.weekly-performance {
+  padding: 20px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+  margin-left: 200px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* 이미지를 가운데 정렬 */
+}
+
+.slide {
+  max-width: calc(33.333% - 10px);
+  height: auto;
+  margin-right: 10px;
+  transition: transform 0.5s ease;
+}
+
+.slide:last-child {
+  margin-right: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 100px;
+  transform: translateY(-50%);
+}
+
+.right-arrow {
+  right: 100px;
+  transform: translateY(-50%);
+}
+
+
+
